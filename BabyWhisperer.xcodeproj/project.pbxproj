@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		434F363319EBB46B00EBBD89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434F363219EBB46B00EBBD89 /* AppDelegate.swift */; };
 		434F363519EBB46B00EBBD89 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434F363419EBB46B00EBBD89 /* FirstViewController.swift */; };
-		434F363719EBB46B00EBBD89 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434F363619EBB46B00EBBD89 /* SecondViewController.swift */; };
+		434F363719EBB46B00EBBD89 /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434F363619EBB46B00EBBD89 /* ConfigurationViewController.swift */; };
 		434F363A19EBB46B00EBBD89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434F363819EBB46B00EBBD89 /* Main.storyboard */; };
 		434F363C19EBB46B00EBBD89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434F363B19EBB46B00EBBD89 /* Images.xcassets */; };
 		434F363F19EBB46B00EBBD89 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 434F363D19EBB46B00EBBD89 /* LaunchScreen.xib */; };
@@ -32,7 +32,7 @@
 		434F363119EBB46B00EBBD89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		434F363219EBB46B00EBBD89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		434F363419EBB46B00EBBD89 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		434F363619EBB46B00EBBD89 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		434F363619EBB46B00EBBD89 /* ConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
 		434F363919EBB46B00EBBD89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		434F363B19EBB46B00EBBD89 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		434F363E19EBB46B00EBBD89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 			children = (
 				434F363219EBB46B00EBBD89 /* AppDelegate.swift */,
 				434F363419EBB46B00EBBD89 /* FirstViewController.swift */,
-				434F363619EBB46B00EBBD89 /* SecondViewController.swift */,
+				434F363619EBB46B00EBBD89 /* ConfigurationViewController.swift */,
 				434F363819EBB46B00EBBD89 /* Main.storyboard */,
 				434F363B19EBB46B00EBBD89 /* Images.xcassets */,
 				434F363D19EBB46B00EBBD89 /* LaunchScreen.xib */,
@@ -220,7 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				434F363719EBB46B00EBBD89 /* SecondViewController.swift in Sources */,
+				434F363719EBB46B00EBBD89 /* ConfigurationViewController.swift in Sources */,
 				434F363319EBB46B00EBBD89 /* AppDelegate.swift in Sources */,
 				434F363519EBB46B00EBBD89 /* FirstViewController.swift in Sources */,
 			);
@@ -416,6 +416,7 @@
 				434F365019EBB46B00EBBD89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		434F365119EBB46B00EBBD89 /* Build configuration list for PBXNativeTarget "BabyWhispererTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +425,7 @@
 				434F365319EBB46B00EBBD89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
