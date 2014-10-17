@@ -15,6 +15,7 @@
 		434F363F19EBB46B00EBBD89 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 434F363D19EBB46B00EBBD89 /* LaunchScreen.xib */; };
 		434F364B19EBB46B00EBBD89 /* BabyWhispererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434F364A19EBB46B00EBBD89 /* BabyWhispererTests.swift */; };
 		434F365519EBB64800EBBD89 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434F365419EBB64800EBBD89 /* AVFoundation.framework */; };
+		43C7D46A19EF299300FEB02A /* lullaby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43C7D46919EF299300FEB02A /* lullaby.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		434F364919EBB46B00EBBD89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		434F364A19EBB46B00EBBD89 /* BabyWhispererTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyWhispererTests.swift; sourceTree = "<group>"; };
 		434F365419EBB64800EBBD89 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		43C7D46919EF299300FEB02A /* lullaby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lullaby.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		434F363019EBB46B00EBBD89 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				43C7D46919EF299300FEB02A /* lullaby.mp3 */,
 				434F363119EBB46B00EBBD89 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -202,6 +205,7 @@
 			files = (
 				434F363A19EBB46B00EBBD89 /* Main.storyboard in Resources */,
 				434F363F19EBB46B00EBBD89 /* LaunchScreen.xib in Resources */,
+				43C7D46A19EF299300FEB02A /* lullaby.mp3 in Resources */,
 				434F363C19EBB46B00EBBD89 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
